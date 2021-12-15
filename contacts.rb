@@ -18,7 +18,9 @@ def contacts
 end
 
 def remove_strawberry(contacts)
-  # your code here!
+  favorite_ice_cream_flavors.shift do |food|
+    favorite_ice_cream_flavors[:Freddy Mercury]
+  end
 end
 
 # print the output to the terminal for inspection
